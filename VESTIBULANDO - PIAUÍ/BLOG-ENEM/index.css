@@ -20,9 +20,25 @@ main a:hover {
   transform: scale(1.05);
 }
 
+.geografia {
+  margin-top: 35px;
+}
+
+
+.formulas {
+  margin-bottom: 120px;
+}
+
+.crase {
+  margin-bottom: 85px ;
+}
+
+.crase a {
+  margin-bottom: 25px;
+}
 
 header {
-  background-color: #00183e;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   color: white;
@@ -71,6 +87,28 @@ footer {
   bottom: 0;
   left: 0;
   padding: 10px 0;
+}
+
+  
+
+
+
+.footer ul li a {
+  text-decoration: none;
+
+}
+
+.joker {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.footerA ul li{
+
+  text-decoration: none;
+  list-style: none;
 }
 
 .comment-section {

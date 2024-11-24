@@ -13,7 +13,7 @@
 <body>
   <header>
     <figure>
-      <img src="https://www.onlygfx.com/wp-content/uploads/2015/12/spiral-circle-logo-template-768x691.jpg"
+      <img src="../Logotipo Azul e Branco Faculdade Curso Escola .png"
         alt="Logo" />
     </figure>
     <div class="headerRight">
@@ -21,7 +21,7 @@
       <nav>
         <ul>
           <li><a href="">Sobre o blog</a></li>
-          <li><a href="">Contatos</a></li>
+          <li><a href="#conta">Contatos</a></li>
           <li><a href="#fim">fim da página</a></li>
         </ul>
       </nav>
@@ -84,16 +84,56 @@
       <p><strong>Desenvolvimento:</strong> "A situação apresentada à comunidade escolar revela..."</p>
       <p><strong>Conclusão:</strong> "Portanto, cabe à sociedade e ao governo..."</p>
 
-      
+
       <p>Dominar o uso da crase é um diferencial significativo na redação do ENEM 2025. Compreender suas regras e
         exceções, bem como praticar seu uso no contexto de uma redação, é fundamental para alcançar uma escrita clara e
         formal. Não subestime a importância da crase e certifique-se de revisar cuidadosamente suas redações para
         garantir que está utilizando-a corretamente. Ao fazer isso, você estará demonstrando um excelente domínio da
         língua portuguesa e, sem dúvida, melhorará seu desempenho na prova. 📚✍️</p>
-      
-      </section>
+
+
+        <div class="comment-section">
+          <h2>Comentários</h2>
+          <div id="comments"></div>
+          <input type="text" id="nameInput" placeholder="Seu nome" /><br />
+          <textarea
+            id="commentInput"
+            rows="4"
+            cols="50"
+            placeholder="Escreva seu comentário aqui..."
+          ></textarea
+          ><br />
+          <button onclick="addComment()">Enviar Comentário
+        </div>
+
+
+
+    </section>
 
   </main>
+
+  <footer id="#conta">
+    <h3>Sobre o Blog</h3>
+    <div class="footer-conteiner">
+      <!-- Coluna de navegação -->
+     
+      <div class="footerA">
+        <ul>
+          <li><a class="joker" href="/sobre">Sobre nós</a></li>
+          <li><a class="joker" href="/contato">Contato</a></li>
+          <li><a class="joker"  href="/privacidade">Política de Privacidade</a></li>
+        </ul>
+      
+      </div>
+
+      <!-- Coluna de copyright -->
+      <div class="footer-section">
+        <p>&copy; 2024 Blog Nome. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../index.js"></script>
 
 
 </body>
